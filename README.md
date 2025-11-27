@@ -7,6 +7,7 @@
 - Увеличение значения счётчика
 - Уменьшение значения счётчика
 - Сброс значения к нулю
+- Оображение последнего сброшенного значения
 
 ## Технологии
 
@@ -17,4 +18,4 @@
 ## Скриншоты приложения
 ![Общий вид](https://github.com/zMC-17/click-counter/blob/7a46066c9ddcc3a345a52726d626fbb93371f1a5/screenshots/first.jpg)
 
-![Пример работы счётчика](https://github.com/zMC-17/click-counter/blob/7a46066c9ddcc3a345a52726d626fbb93371f1a5/screenshots/second.jpg)
+![Пример работы счётчика](./screenshots/screen3.jpg)

@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
-
   const [count, setCount] = useState(0);
+  // Добавляем новое состояние для хранения последнего сброшенного значения
+  const [lastResetValue, setLastResetValue] = useState(null);
 
   const increment = () => {
     setCount(count + 1);
@@ -14,9 +15,10 @@ function App() {
   };
 
   const reset = () => {
+    // Перед сбросом сохраняем текущее значение в lastResetValue
+    setLastResetValue(count);
     setCount(0);
   };
-
 
   return (
     <div className="App">
@@ -46,6 +48,13 @@ function App() {
             +
           </button>
         </div>
+
+        {/* Блок для отображения последнего сброшенного значения */}
+        {lastResetValue !== null && (
+          <div className="last-reset-info">
+            <p>Последний сброс был на значении: <span className="reset-value">{lastResetValue}</span></p>
+          </div>
+        )}
       </header>
     </div>
   );

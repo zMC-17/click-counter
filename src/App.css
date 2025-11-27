@@ -54,3 +54,22 @@
   background-color: #ffeb3b;
   color: black;
 }
+
+.last-reset-info {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.last-reset-info p {
+  margin: 0;
+  color: #ccc;
+}
+
+.reset-value {
+  color: #ffeb3b;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
