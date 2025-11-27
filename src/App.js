@@ -17,7 +17,7 @@ function App() {
     setCount(0);
   };
 
-  // Возвращаем JSX-разметку, которая будет отображена на странице
+
   return (
     <div className="App">
       <header className="App-header">
@@ -31,17 +31,17 @@ function App() {
 
         {/* Контейнер для кнопок */}
         <div className="button-container">
-          {/* Кнопка для уменьшения значения */}
+          {/* Кнопка для уменьшения */}
           <button onClick={decrement} className="btn btn-decrement">
             -
           </button>
 
-          {/* Кнопка для сброса значения */}
+          {/* Кнопка для сброса */}
           <button onClick={reset} className="btn btn-reset">
             Сбросить
           </button>
 
-          {/* Кнопка для увеличения значения */}
+          {/* Кнопка для увеличения */}
           <button onClick={increment} className="btn btn-increment">
             +
           </button>
@@ -51,5 +51,4 @@ function App() {
   );
 }
 
-// Экспортируем компонент для использования в других файлах
 export default App;

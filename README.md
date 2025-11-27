@@ -14,8 +14,7 @@
 - React Hooks (useState)
 - CSS3
 
-## Установка и запуск
+## Скриншоты приложения
+![Общий вид] (screenshots/first.jpg)
 
-1. Клонируйте репозиторий:
-```bash
-git clone https://github.com/твой_username/clicker-counter.git
+![Пример работы счётчика] (screenshots/second.jpg)
